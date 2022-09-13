@@ -1,0 +1,103 @@
+/**
+* 2007-2019 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2019 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+#mColorPickerImg{
+    background-image: url(../../../../img/admin/colorpicker.png) !important;
+}
+#mColorPickerImgGray{
+    background-image: url(../../../../img/admin/graybar.jpg) !important;
+}
+#mColorPickerFooter{
+    background-image: url(../../../../img/admin/grid.gif) !important;
+}
+#mColorPickerInput{
+	color:black !important;
+}
+.range{
+    vertical-align:-webkit-baseline-middle;
+    float:right;
+    margin:5px 0px;
+}
+.slider{
+    margin:10px 0px;
+    float:left;
+    width:75%;
+}
+.ui-slider a:focus {
+    outline:none !important;
+}
+.ui-slider-range{
+    background:#81B8F3 !important;
+}
+.ui-slider .ui-slider-handle {
+    border-radius: 50% !important;
+    background: #F9FBFA !important;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi…pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') !important;
+    background-size: 100% !important;
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #C7CED6), color-stop(100%, #F9FBFA)) !important;
+    background-image: -webkit-linear-gradient(top, #C7CED6, #F9FBFA) !important;
+    background-image: -moz-linear-gradient(top, #C7CED6, #F9FBFA) !important;
+    background-image: -o-linear-gradient(top, #C7CED6, #F9FBFA) !important;
+    background-image: linear-gradient(top, #C7CED6, #F9FBFA) !important;
+    width: 22px !important;
+    height: 22px !important;
+    -webkit-box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.6), 0 -1px 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 0 1px rgba(255, 255, 255, 0.9) inset !important;
+    -moz-box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.6), 0 -1px 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 0 1px rgba(255, 255, 255, 0.9) inset !important;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.6), 0 -1px 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 0 1px rgba(255, 255, 255, 0.9) inset !important;
+    -webkit-transition: box-shadow .3s !important;
+    -moz-transition: box-shadow .3s !important;
+    -o-transition: box-shadow .3s !important;
+    transition: box-shadow .3s !important;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute !important;
+    z-index: 2 !important;
+    width: 22px !important;
+    height: 22px !important;
+    cursor: default !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+.ui-slider .ui-slider-handle:after {
+    content:"" !important;
+    position: absolute !important;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    top: 50% !important;
+    margin-top: -4px !important;
+    left: 50% !important;
+    margin-left: -4px !important;
+    background: #30A2D2 !important;
+    -webkit-box-shadow: 0 1px 1px 1px rgba(22, 73, 163, 0.7) inset, 0 1px 0 0 #FFF !important;
+    -moz-box-shadow: 0 1px 1px 1px rgba(22, 73, 163, 0.7) inset, 0 1px 0 0 white !important;
+    box-shadow: 0 1px 1px 1px rgba(22, 73, 163, 0.7) inset, 0 1px 0 0 #FFF !important;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.5em !important;
+    margin-left: -.6em !important;
+}
